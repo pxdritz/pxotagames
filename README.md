@@ -55,11 +55,13 @@ python3 cobrinha.py
 1. **Instalar Python** (se não tiver): [python.org](https://www.python.org/downloads/)
 
 2. **Baixe TODOS os arquivos:**
-```Clique em "Code" e depois Download Zip
+```bash
+Clique em "Code" e depois Download Zip
 ```
 
 3. **Extraia o Zip**
-```Aperte com o botão direito no Arquivo e depois em "Extrair"
+```bash
+Nem preciso explicar
 ```
 
 3.5 **Jogue tudo em sua Área de Trabalho ou em qualquer pasta**
@@ -94,11 +96,13 @@ brew install python3
 ```
 
 2. **Baixe TODOS os arquivos:**
-```Clique em "Code" e depois Download Zip
+```bash
+Clique em "Code" e depois Download Zip
 ```
 
 3. **Extraia o Zip**
-```Aperte com o botão direito no Arquivo e depois em "Extrair"
+```
+Aperte com o botão direito no Arquivo e depois em "Extrair"
 ```
 
 3.5 **Jogue tudo em sua Área de Trabalho ou em qualquer pasta**
