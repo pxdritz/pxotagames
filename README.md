@@ -74,6 +74,7 @@ pip install -r requirements.txt
 
 5. **Rodar um jogo:**
 ```bash
+cd caminho/da/pasta
 python velha.py
 python cobrinha.py
 ```
