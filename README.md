@@ -120,7 +120,6 @@ python3 cobrinha.py
 ```
 ├── velha.py                 # Jogo da Velha com IA
 ├── cobrinha.py           # Jogo da Cobrinha
-├── imagempersonalizadaqtuquerbobao.png              # Imagem da cobra
 ├── requirements.txt        # Dependências do projeto
 └── README.md              # Este arquivo
 ```
