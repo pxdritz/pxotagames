@@ -4,7 +4,7 @@ Uma coleção de jogos e aplicações criados com Python e Pygame.
 
 ## 🎯 Projetos
 
-### 1. **Jogo da Velha contra CPU** (`teste.py`)
+### 1. **Jogo da Velha contra CPU** (`velha.py`)
 Jogo da velha clássico contra uma CPU com 3 níveis de dificuldade:
 - 🟢 **Fácil**: CPU faz movimentos aleatórios
 - 🟡 **Médio**: CPU tenta ganhar e bloqueia seus movimentos
@@ -12,7 +12,7 @@ Jogo da velha clássico contra uma CPU com 3 níveis de dificuldade:
 
 **Como jogar:**
 ```bash
-python3 teste.py
+python3 velha.py
 ```
 - Clique nos botões para escolher o nível
 - Clique nas casas do tabuleiro para jogar
@@ -20,7 +20,7 @@ python3 teste.py
 
 ---
 
-### 2. **Jogo da Cobrinha** (`snake_game.py`)
+### 2. **Jogo da Cobrinha** (`cobrinha.py`)
 Clássico jogo Snake com a imagem personalizada como cabeça da cobra.
 
 **Recursos:**
@@ -32,7 +32,7 @@ Clássico jogo Snake com a imagem personalizada como cabeça da cobra.
 
 **Como jogar:**
 ```bash
-python3 snake_game.py
+python3 cobrinha.py
 ```
 
 **Controles:**
