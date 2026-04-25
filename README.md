@@ -47,6 +47,7 @@ python3 snake_game.py
 - Python 3.7+
 - pygame
 - numpy
+- imagem que tu quer (coloque no diretório e não use webp)
 
 ## 🚀 Instalação
 
