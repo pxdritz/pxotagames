@@ -1,14 +1,15 @@
 # 🎮 Meus Jogos em Python
 
-Uma coleção de jogos e aplicações criados com Python e Pygame.
+Uma coleção de jogos criados por mim, Px ;3.
 
 ## 🎯 Projetos
 
-### 1. **Jogo da Velha contra CPU** (`velha.py`)
-Jogo da velha clássico contra uma CPU com 3 níveis de dificuldade:
+
+### 1. **Jogo da Velha** (`velha.py`)
+Jogo da velha clássico contra a CPU com 3 níveis de dificuldade:
 - 🟢 **Fácil**: CPU faz movimentos aleatórios
-- 🟡 **Médio**: CPU tenta ganhar e bloqueia seus movimentos
-- 🔴 **Difícil**: IA perfeita com algoritmo Minimax (nunca perde)
+- 🟡 **Médio**: CPU tenta ganhar e bloquear
+- 🔴 **Difícil**: CPU perfeita com algoritmo Minimax
 
 **Como jogar:**
 ```bash
@@ -16,7 +17,7 @@ python3 velha.py
 ```
 - Clique nos botões para escolher o nível
 - Clique nas casas do tabuleiro para jogar
-- Pressione "Jogar Novamente" para reiniciar
+
 
 ---
 
@@ -46,8 +47,6 @@ python3 cobrinha.py
 
 - Python 3.7+
 - pygame
-- numpy
-- imagem que tu quer (coloque no diretório e não use webp)
 
 ## 🚀 Instalação
 
@@ -55,16 +54,17 @@ python3 cobrinha.py
 
 1. **Instalar Python** (se não tiver): [python.org](https://www.python.org/downloads/)
 
-2. **Clonar o repositório:**
-```bash
-git clone https://github.com/pxdritz/pxotagames
-cd pxotagames
+2. **Baixe TODOS os arquivos:**
+```Clique em "Code" e depois Download Zip
 ```
 
-3. **Criar ambiente virtual (recomendado):**
+3. **Extraia o Zip**
+```Aperte com o botão direito no Arquivo e depois em "Extrair"
+```
+
+3.5 **Jogue tudo em sua Área de Trabalho ou em qualquer pasta**
 ```bash
-python -m venv venv
-venv\Scripts\activate
+Ctrl+X e Ctrl+V
 ```
 
 4. **Instalar dependências:**
@@ -80,28 +80,29 @@ python cobrinha.py
 
 ---
 
-### Linux / macOS
+### Debian e Ubuntu Based's / macOS
 
 1. **Instalar Python** (se não tiver):
 ```bash
-# Linux (Ubuntu/Debian)
+# Linux
 sudo apt-get install python3 python3-pip python3-venv
+# na maioria dos Linux's, a única coisa que muda é o gerenciador de pacotes (substitua apt pelo respectivo a sua distro), no Fedora, por exemplo, o gerenciador é o "Dnf"
 
 # macOS
 brew install python3
 ```
 
-2. **Clonar o repositório:**
-```bash
-git clone https://github.com/pxdritz/pxotagames
-cd pxotagames
+2. **Baixe TODOS os arquivos:**
+```Clique em "Code" e depois Download Zip
 ```
 
-3. **Criar ambiente virtual:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
+3. **Extraia o Zip**
+```Aperte com o botão direito no Arquivo e depois em "Extrair"
 ```
+
+3.5 **Jogue tudo em sua Área de Trabalho ou em qualquer pasta**
+```bash
+Ctrl+X e Ctrl+V
 
 4. **Instalar dependências:**
 ```bash
@@ -121,6 +122,7 @@ python3 cobrinha.py
 ```
 ├── velha.py                 # Jogo da Velha com IA
 ├── cobrinha.py           # Jogo da Cobrinha
+├── pxota.png              # Imagem da cobra
 ├── requirements.txt        # Dependências do projeto
 └── README.md              # Este arquivo
 ```
@@ -140,30 +142,6 @@ python3 cobrinha.py
 - Coma as bolinhas vermelhas
 - Evite as paredes e sua própria cauda
 - Sua cobra cresce a cada comida
-
----
-
-## 🔧 Solução de Problemas
-
-### "ModuleNotFoundError: No module named 'pygame'"
-```bash
-pip install pygame
-```
-
-### "ModuleNotFoundError: No module named 'numpy'"
-```bash
-pip install numpy
-```
-
-### PyAudio não funciona no macOS
-```bash
-brew install portaudio
-pip install pyaudio
-```
-
-### Snake_game.py não encontra a imagem
-- Certifique-se que `pxota.png` está no mesmo diretório que `snake_game.py`
-- Ou atualize o caminho em `snake_game.py` linha 68
 
 ---
 
