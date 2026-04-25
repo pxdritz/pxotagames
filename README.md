@@ -118,10 +118,9 @@ python3 cobrinha.py
 ## 📁 Estrutura do Projeto
 
 ```
-├── teste.py                 # Jogo da Velha com IA
-├── snake_game.py           # Jogo da Cobrinha
-├── audio_visualizer.py     # Visualizador de Áudio
-├── pxota.png              # Imagem da cobra
+├── velha.py                 # Jogo da Velha com IA
+├── cobrinha.py           # Jogo da Cobrinha
+├── imagempersonalizadaqtuquerbobao.png              # Imagem da cobra
 ├── requirements.txt        # Dependências do projeto
 └── README.md              # Este arquivo
 ```
